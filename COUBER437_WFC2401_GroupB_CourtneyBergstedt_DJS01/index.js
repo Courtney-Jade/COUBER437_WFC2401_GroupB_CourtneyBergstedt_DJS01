@@ -26,8 +26,8 @@ function calculateNewVelocity(velocity, acceleration, time) {
    return newVelocityInKmPerHour;
  }
  //Function to Calculate New Velocity:the calculateNewVelocity function:
-//This function will use the three parameters: initial velocity, acceleration, and time.
-// It first converts the initial velocity from kilometers per hour to meters per second, then calculates the new velocity using the formula v = u + at (where v is the final velocity, u is the initial velocity, a is acceleration, and t is time). 
+// uses the three parameters: initial velocity, acceleration, and time.
+// converts the initial velocity from kilometers per hour to meters per second
 //Finally, it converts the new velocity back to kilometers per hour and returns the result.
 
 // Calculate corrected results
