@@ -1,12 +1,11 @@
 
-// Given Parameters
+// Given Parameters: These parameters include initial velocity, acceleration, time, initial distance, initial fuel, and fuel burn rate.
 const initialVelocity = 10000; // Initial velocity (km/h)
 const acceleration = 3; // Acceleration (m/s^2)
 const time = 3600; // Time (seconds) (1 hour)
 const initialDistance = 0; // Initial distance (km)
 const initialFuel = 5000; //Initial fuel (kg)
 const fuelBurnRate = 0.5; // fuel burn rate (kg/s)
-//Given Parameters: These parameters include initial velocity, acceleration, time, initial distance, initial fuel, and fuel burn rate.
 
 
 // Function to calculate new velocity
