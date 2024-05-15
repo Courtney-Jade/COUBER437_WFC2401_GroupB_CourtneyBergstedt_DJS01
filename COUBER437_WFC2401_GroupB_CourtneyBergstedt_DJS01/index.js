@@ -34,16 +34,11 @@ function calculateNewVelocity(velocity, acceleration, time) {
 const newVelocity = calculateNewVelocity(initialVelocity, acceleration, time);
 const newDistance = initialDistance + (initialVelocity * (time / 3600));
 const remainingFuel = initialFuel - (fuelBurnRate * time);
-//Corrected Results Calculation: the corrected results are calculated using the given parameters and the calculateNewVelocity function. 
-//The corrected new velocity is computed by calling the calculateNewVelocity function with the initial velocity, acceleration, and time. 
-//The corrected new distance is calculated by adding the initial distance to the product of the initial velocity (converted to meters per second) and time (converted to hours). 
-//The corrected remaining fuel is determined by subtracting the product of the fuel burn rate and time from the initial fuel.
 
 console.log(`Corrected New Velocity: ${newVelocity.toFixed(2)} km/h`);
 console.log(`Corrected New Distance: ${newDistance.toFixed(2)} km`);
 console.log(`Corrected Remaining Fuel: ${remainingFuel.toFixed(2)} kg`);
 //Output:the corrected new velocity, new distance, and remaining fuel are logged to the console.
-
 
 
 
